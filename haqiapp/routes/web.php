@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MahasiswaController;
+
+Route::get('/tes', [TesController::class, 'index']);
 
 Route::get('/halo', function () {
     return "Halo, ini adalah halaman web";
