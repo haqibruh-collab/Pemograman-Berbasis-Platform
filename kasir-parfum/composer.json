@@ -1,0 +1,10 @@
+{
+    "name": "project/kasir-parfum",
+    "description": "Sistem Kasir Toko Parfum berbasis OOP PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
